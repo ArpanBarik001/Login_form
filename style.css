@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(pexels-alex-azabache-3879071.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top :30%;
+    left:43%;
+    color: black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid white;
+    margin-bottom: 43px;
+    padding: 15px 30px;
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    margin: 15px 0;
+    
+}
+
+.box input{
+    width: 72%;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    
+    padding: 5px 15px;
+
+}
+
+.btn{
+    outline: none;
+    width: 100%;
+    margin: 16px 0;
+    border-radius: 12px;
+    padding: 8px;
+    background: none;
+    font-size: 18px;
+}
+
+.btn:hover{
+    outline: none;
+    width: 100%;
+    margin: 16px 0;
+    border-radius: 12px;
+    padding: 8px;
+    background: none;
+    font-size: 18px;
+    color: white;
+    border: 5px solid black;
+}
+
+.box i{
+    width: 11%;
+    text-align: center;
+    
+}
+
+div#invalid {
+    margin: 9px 63px;
+    color: white;
+    
+}
+
+div#special{
+    margin: 9px 63px;
+    color: white;
+}
+
+
+
+
+
+
+
